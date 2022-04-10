@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="./css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+        <title>Zoo Guarulhos</title>
+
+        <script type="text/javascript" src="./js/script.js"> </script>
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+
+    <body>
+
+        <button class="nav-button" onclick="openNav()">
+            <i class="fa-solid fa-bars fa-2x"></i>
+        </button>
+
+        <div id="myNav" class="overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <div class="overlay-content">
+                <a href="https://www.guarulhos.sp.gov.br/zoologico/o-zoo.html">Zoológico</a>
+                <a href="#">Animais</a>
+                <a href="https://www.google.com/maps/place/Av.+Don%C3%A1+Gl%C3%B3ria+Pagnonceli,+344+-+Jardim+Rosa+de+Franca,+Guarulhos+-+SP,+07081-120/@-23.4427081,-46.5545465,17z/data=!3m1!4b1!4m5!3m4!1s0x94cef4ffccaa6fa9:0x1922855f2a09ebd5!8m2!3d-23.4427081!4d-46.5523578">Como Chegar</a>
+                <a href="https://github.com/BrenoMaiolino">Desenvolvedor</a>
+            </div>
+        </div>
+
+       <header class="menu_principal">
+        <main>
+           <div class="header_1">
+           <div class="logo">
+               <img src="./img/logozoo.png" width="100">
+           </div>
+           </div>
+        </main>
+       </header>
+
+       <div class="slider">
+            <div class="slides">
+                <!--Radio buttons(bolinhas)-->
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+                <!--Fim Radio buttons-->
+
+                <!--Slides images-->
+                <div class="slide first">
+                    <img src="./img/slideinfo.png" alt="info">
+                </div>
+                <div class="slide">
+                    <img src="./img/capivaraslide.png" alt="capivara">
+                </div>
+                <div class="slide">
+                    <img src="./img/oncaslide.png" alt="onca">
+                </div>
+                <div class="slide">
+                    <img src="./img/tucanoslide.png" alt="tucano">
+                </div>
+                <!--Fim slides-->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                    </div>
+                <!--Navigation auto-->
+
+            </div>
+               <div class="manual-navigation">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+               </div>
+            </div>            
+        </div>
+    </body>
+</html>
+
+
+     

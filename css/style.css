@@ -1,0 +1,150 @@
+body {
+    background-image: url(../img/back1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+*{
+margin: 0;
+padding: 0;
+outline: 0;
+box-sizing: border-box;
+}
+
+.menu_principal{
+    background-color:#ff914d;
+    height: 100px;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main{
+    width: 200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+.logo{
+    padding: 0px;
+    width: 70%;
+    float:left;
+}
+
+.nav-button{
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: #ff914d;
+    margin: 8px;
+    cursor: pointer;
+}
+
+.nav-button i{
+    color: green;
+}
+
+.overlay{
+    width: 0;
+    height: 100%;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+.overlay a{
+    padding:  8px;
+    text-decoration: none;
+    color: #ff914d;
+    display: block;
+    font-size: 34px;
+    transition: 0.3s;
+}
+.overlay a:hover, .overlay a:focus{
+    color: green;
+}
+.overlay .closebtn{
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size: 60px;
+}
+
+
+
+.slider{
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
+.slides{
+    width: 400px;
+    height: 400px;
+    display: flex;
+}
+.slides input{
+    display: none;
+}
+.slide{
+    width: 25px;
+    position: relative;
+}
+.slide img {
+    width: 400px;
+}
+.manual-navigation{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+
+.manual-btn:hover{
+    background-color: #ff914d;
+}
+
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -25%;
+}
+#radio3:checked ~ .first{
+    margin-left: -50%;
+}
+#radio4:checked ~ .first{
+    margin-left: -75%;
+}
+
+
+    
+
+
+
